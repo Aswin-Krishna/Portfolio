@@ -105,13 +105,15 @@ header .user img{
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: -2rem;
+    margin-bottom: -3.3rem;
     border: 0.7rem solid var(--sandal);
 }
 
 header .user .name{
     font-size: 3.5rem;
     color: #fff;
+    margin-top: 3rem;
+    
 }
 
 header .user .post{
