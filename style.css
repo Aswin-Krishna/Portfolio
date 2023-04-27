@@ -508,6 +508,11 @@ header .navbar ul li a:hover{
     text-transform: lowercase;
 }
 
+.contact .row .content .info h3 i:hover{
+    color: white;
+}
+
+
 .contact .row form{
     margin: 3rem 0;
 }
