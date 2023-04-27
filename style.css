@@ -90,19 +90,21 @@ header{
     top: 0; left: 0;
     z-index: 1000;
     height: 100%;
-    width: 35rem;
+    width: 27%;
     background: #1a1a1a;
     display: flex;
     align-items: center;
     flex-flow: column;
     text-align: center;
     justify-content: center;
+    /* border: 1px solid red; */
+    padding: 3rem;
 
 }
 
 header .user img{
-    height: 17rem;
-    width: 17rem;
+    height: 15rem;
+    width: 15rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: -3.3rem;
@@ -133,7 +135,7 @@ header .navbar ul{
 header .navbar ul li a{
     display: block;
     padding: 1rem;
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
     background: #333;
     color: #fff;
     font-size: 2rem;
@@ -241,11 +243,11 @@ header .navbar ul li a:hover{
     
 }
 
-.portfolio .box-container .box{
+.portfolio .port-container .port-item{
     width: 100%;
     
 }
-.box{
+.port-item{
     padding: 1px;
     /* border:1px solid var(--sandal); */
     display: flex;
@@ -253,8 +255,7 @@ header .navbar ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-
-.portfolio .box-container{
+ .port-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -263,7 +264,7 @@ header .navbar ul li a:hover{
 }
 
 
-.portfolio .box-container .box{
+.portfolio .port-container .port-item{
     height: 15rem;
     width: 20rem;
     border-radius: 1rem;
@@ -274,14 +275,14 @@ header .navbar ul li a:hover{
 }
 
 
-.portfolio .box-container .box img{
+.portfolio .port-container .port-item img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 
-.portfolio .box-container .box:hover img{
+.portfolio .port-container .port-item:hover img{
     transform: scale(1.2);
 }
 
@@ -360,8 +361,11 @@ header .navbar ul li a:hover{
     cursor: pointer;
     transform: scale(1.1);    
 }
-
-
+#acheivements_img{
+    margin: 2rem;
+    width: 100%;
+    height: 100%;
+}
 
 /* .child{
     min-width: 600px;
@@ -571,7 +575,7 @@ header .navbar ul li a:hover{
     }
 }
 
-@media (max-width:400px){
+@media (min-width:0px) and (max-width:400px){
 
     header{
         width: 100vw;
@@ -584,6 +588,46 @@ header .navbar ul li a:hover{
     .about .row .counter .box{
         width: 100%;
     }
+    #acheivements_img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+                    
+    .gallery{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #backBtn,#nextBtn{
+        display: none;
+    }
+    .port-container{
+       
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        width: 100%;
+    }
+    
+    .port-item{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
+    .clang{
+        width: 100%;
+    }
+    #image{
+        width:100%;
+        height:100%;
+    }
+    
 }
 
 @media (max-width:768px){
