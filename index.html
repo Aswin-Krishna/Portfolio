@@ -4,7 +4,7 @@
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale="1.0">
-        <title>Personal Portfolio Website</title>
+        <title>Aswin Krishna - Portfolio</title>
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <link rel="stylesheet" href="style.css">
@@ -13,14 +13,8 @@
         <script src="D:/portfolio/click-tap-image/js/vendor/jquery.min.js"></script>
         <script src="D:/portfolio/click-tap-image/dist/js/image-zoom.min.js"></script> -->
 
-    
-
-
     </head>
  
-
-    
-
     <body>
         
         <header>
@@ -69,12 +63,12 @@
                     <h3><span>Degree : </span>B.tech</h3>
                     <h3><span>Branch : </span>Information Technology</h3>
                     <h3><span>Year : </span>4</h3>
-                    <a href="Aswin Krishna Resume.pdf" download><button class="btn">Download Resume <i class="fas fa-download"></i></button></a>
+                    <a href="Aswin Krishna V.pdf" download><button class="btn">Download Resume <i class="fas fa-download"></i></button></a>
                 </div>
     
-                <div class="counter">
-                    <div class="box">
-                        <span>5</span>
+                <div  class="counter" >
+                    <div class="box" onclick="window.location.href = 'project.html'">
+                        <span>4</span>
                         <h3>Projects Completed</h3>
                     </div>
     
@@ -88,8 +82,6 @@
                         <h3>Awards Won</h3>
                     </div>
 
-                    
-    
                 </div>
     
             </div>
@@ -216,7 +208,7 @@
 
             </script>
 
-            <script>
+            <!-- <script>
                 document.querySelectorAll('.gallery img').forEach(image =>{
                     image.onclick = () =>{
                         document.querySelector('.popup-image').style.display='block';
@@ -231,7 +223,7 @@
                     document.querySelector('.popup-image').style.display='none';
                 }
 
-            </script>
+            </script> -->
             
             
 
@@ -264,6 +256,7 @@
             <form  action="https://formspree.io/f/xwkjazpk" method="POST">
                 <input type="text" placeholder="name" id="name" name="name" class="box" required>
                 <input type="email" placeholder="email" id="mail" name="email" class="box" required>
+                <input type="text" placeholder="phone number" id="phone" name="email" class="box">
                 <textarea  id="message" cols="30" rows="10" class="box message"  name="message" placeholder="message" required></textarea>
                 <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
             </form>

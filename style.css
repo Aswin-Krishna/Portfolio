@@ -27,7 +27,7 @@ html{
 }
 
 html::-webkit-scrollbar{
-    width: 1.4px;
+    width: 4px;
     background-color: #F5F5F5;
 }
 
@@ -242,6 +242,146 @@ header .navbar ul li a:hover{
     color: #fff;
     
 }
+
+/* about aka gp aka group project */
+
+.gp .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+
+.gp .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.gp .row .info img{
+    width: 90%;
+}
+
+.gp .row .info h3{
+    font-size: 3rem;
+    text-decoration: underline;
+    color: var(--sandal);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.gp .row .info h4{
+    font-size: 2rem;
+    font-weight: normal;
+     color: #eee;
+}
+
+.gp .row .info h3 span{
+    color: #eee;
+    padding: 0.5rem;
+}
+
+.gp .row .counter{
+    flex: 1 1 48rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gp .row .counter .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.gp .row .counter .box span{
+    font-size: 4rem;
+    color: var(--sandal);
+
+}
+
+.gp .row .counter .box h3{
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+/* gp ends */
+
+/* ip starts */
+
+.ip .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.ip .row .info{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.ip .row .info img{
+    width: 90%;
+}
+
+.ip .row .info h3{
+    font-size: 3rem;
+    text-decoration: underline;
+    color: var(--sandal);
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.ip .row .info h4{
+    font-size: 2rem;
+    font-weight: normal;
+     color: #eee;
+}
+
+.ip .row .info h3 span{
+    color: #eee;
+    padding: 0.5rem;
+}
+
+.ip .row .counter{
+    flex: 1 1 48rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ip .row .counter .box{
+    width: 20rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.ip .row .counter .box span{
+    font-size: 4rem;
+    color: var(--sandal);
+
+}
+
+.ip .row .counter .box h3{
+    font-size: 2rem;
+    color: #fff;
+    
+}
+
+
+/* ip ends */
 
 .portfolio .port-container .port-item{
     width: 100%;
@@ -555,6 +695,13 @@ header .navbar ul li a:hover{
     .home{
         padding: 1rem 4rem;
     }
+
+    /* .gp .row .info{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    } */
 
 }
 

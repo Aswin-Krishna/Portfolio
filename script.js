@@ -36,8 +36,3 @@ $(document).ready(function(){
 
 });
 
-// $(function(){
-//     $('.gallery').imageZoom({
-//       $(this).imageZoom()
-//     });
-//   });
