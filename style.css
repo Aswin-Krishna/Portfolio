@@ -672,9 +672,14 @@ header .navbar ul li a:hover{
 
 #image{
     width: 34%;
-    height: 50%;
+    height: 55%;
 
 }
+
+/* #react-img{
+    width: 90%;
+    height: 55%;
+} */
 
 .icon{
     display: flex;
